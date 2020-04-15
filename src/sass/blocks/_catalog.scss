@@ -123,8 +123,10 @@
             margin-right: 0px;
             transform: translateX(-100%);
             transition: 0.5s all;
+            margin-right: 20px; 
             &_active {
-                transform: translateX(0%);            }
+                transform: translateX(0%); 
+                         }
         }
         &__list {
             position: relative;
