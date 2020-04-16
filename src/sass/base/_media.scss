@@ -164,6 +164,7 @@
     }
 
     .catalog {
+        padding-bottom: 70px;
         &__tabs {
             flex-direction: column;
         }
@@ -179,6 +180,22 @@
         }
     }
 
+    .feed {
+        &__item {
+            display: block;
+            align-items: center;
+            text-align: center;
+            margin-top: 70px;
+        }
+        &__img {
+            padding-right: 0;
+            margin-bottom: 20px;
+            width: 130px;
+        }
+        &__descr {
+            font-size: 15px;
+        }
+    }
 
 
 }
