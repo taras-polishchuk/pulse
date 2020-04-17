@@ -8,6 +8,8 @@
     font-weight: 500;
     text-transform: uppercase;
     color: #ffffff;
+    opacity: 1;
+    transition: 0.5s;
     &_main {
         width: 300px;
         height: 50px;
@@ -30,4 +32,7 @@
         font-size: 14px;
         line-height: 39px;
     }
+    &:hover{
+        opacity: 0.6;
+      }
 }
