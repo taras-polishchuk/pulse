@@ -195,13 +195,24 @@
         &__descr {
             font-size: 15px;
         }
+        &-form_mt5 {
+            width: 100%;
+        }
     }
 
     .footer {
         &__info {
-            width: 100%;
+            width: 90%;
             padding: 45px 30px;
         }
     }
 
+    .modal {
+        width: 90%;
+        &__close {
+            top: 10px;
+            right: 10px;
+        }
+    }
+    
 }

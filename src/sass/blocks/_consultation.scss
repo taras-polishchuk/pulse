@@ -9,4 +9,13 @@
         color: #ffffff;
         margin-top: 80px;
     }
+    .error {
+        border: 1px solid $main-color;
+    }
+    label.error{
+        color: #ffffff;
+        border: none;
+        text-align: center;
+        margin-top: 15px;
+    }
 }
